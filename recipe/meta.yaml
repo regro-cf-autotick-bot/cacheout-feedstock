@@ -1,13 +1,13 @@
 {% set name = "cacheout" %}
-{% set version = "0.16.0" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cacheout-{{ version }}.tar.gz
-  sha256: ee264897cbaa089ae5f406da11952697d99fa7f3583cfab69fe8a00ff8e1952d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/cacheout-{{ version }}.tar.gz
+  sha256: 38e6ead5828e718e8451029fe9b6c0c6f9ca351cf321c73f8e06b60e4af27ad1
 
 build:
   noarch: python
